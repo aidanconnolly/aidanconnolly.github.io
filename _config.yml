@@ -9,7 +9,6 @@
 title: Aidan Connolly
 email: aidan.connolly@huskers.unl.edu
 description: > # this means to ignore newlines until "baseurl:"
-    This website serves as a portfolio.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: aidan17connolly
