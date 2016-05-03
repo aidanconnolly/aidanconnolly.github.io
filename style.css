@@ -1,0 +1,106 @@
+.navbar {
+    padding: 0px 0px 5px;
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.row-content {
+    height: 450px
+}
+
+.sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+
+@media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+
+footer {
+	  background-color: #000;
+      padding: 25px;
+    color: #FFF;
+    }
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #FFF;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #999999
+}
+
+.navbar-inverse .navbar-nav>li>a.active{
+    color: #999999
+}
+
+.p-t-sm {
+    padding-top: 20px;
+}
+
+.p-b-sm {
+    padding-bottom: 20px;
+}
+
+.p-b-md {
+    padding-bottom: 30px;
+}
+
+.jumbotronPicture {
+   position: relative;
+    background: #000 url("contact.jpg") no-repeat center center;
+    height: 300px;
+    max-width: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.jumbotronResume {
+    position: relative;
+    background: #000 url("Resume.jpg") no-repeat center center;
+    height: 150px;
+    max-width: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.jumbotronPortfolio {
+    position: relative;
+    background: #000 url("portfolio.jpg") no-repeat center center;
+    height: 150px;
+    max-width: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.introduction {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        bottom: auto;
+        right: auto;
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -ms-transform: translateX(-50%) translateY(-50%);
+        -o-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+        text-align: center;
+        width: 100%;
+        color: #FFF;
+        text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+      }
+
+footer a {
+    color: #FFF;
+    text-decoration: underline;
+}
+
+footer a:hover{
+    color:#999999
+}
