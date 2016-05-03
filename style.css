@@ -94,21 +94,42 @@ footer {
         width: 100%;
         color: #FFF;
         text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+        font-family: "Avenir", "Arial", sans-serif;
+        font-weight: 700;
       }
 
-footer a {
+.footerLink {
     color: #FFF;
     text-decoration: underline;
 }
 
-footer a:hover{
+.footerLink:hover{
     color:#999999
 }
 
 p {
     font-size: 1.3em;
+    font-family: "Avenir", "Arial", sans-serif
+}
+
+p a {
+    color: #777777;
+}
+
+p a:hover {
+    color: #000;
+    text-decoration: none;
 }
 
 h3 {
     margin-top: 0;
+}
+
+h3 a {
+    color: #777777;
+}
+
+h3 a:hover {
+    color: #000;
+    text-decoration: none;
 }
