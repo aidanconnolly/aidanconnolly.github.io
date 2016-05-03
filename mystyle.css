@@ -2,7 +2,8 @@ body{
     left: 0;
     margin: 0 auto;
     background-color: black;
-    height: 1000px;
+    /*height: 1000px;*/
+    overflow: auto;
 }
 
 #wrapper {
@@ -37,11 +38,11 @@ li > a {
     font-size: 1.2em
 }
 
-li a:hover {
+li > a:hover {
     color: #999999;
 }
 
-li a.active {
+li > a.active {
     color: #999999;
 }
 
@@ -68,7 +69,7 @@ li a.active {
 }
 
 #lower > a {
-    text-align: center;
+    text-align: left;
 }
 
 #lower > div > img {
@@ -94,14 +95,14 @@ li a.active {
 }
 
 #bio {
-    text-align: center;
-    background-color: 
+    text-align: left;
+    margin: 0px 100px;
 }
 
 #bio > a {
     text-decoration: none;
     color: lightgray;
-    font-family: "Avenir Next Condensed", "sans-serif";
+    font-family: "Minion Pro", "serif";
     font-size: 1.1em;
 }
 #headertext {
@@ -110,12 +111,6 @@ li a.active {
     text-align: center;
     top: 75px;
     width: 100%;
-}
-
-#resume {
-    width: 95%;
-    height: 92vh;
-    margin: 0 auto;
 }
 
 #links {
@@ -130,11 +125,12 @@ li a.active {
 }
 
 #intro {
-    height: 200px;
+    height: 100px;
     width: 100%;
     background-color: dimgray;
     position: relative;
 }
+
 h1 {
     text-align: center;
     font-family: "Avenir", "sans-serif";
@@ -150,12 +146,11 @@ h4 {
     margin: 0;
     font-family: "Avenir Next";
     font-weight: normal;
-    padding-top: 75px;
+    padding-top: 30px;
     
 }
 
 h5 {
-    text-align: center;
     font-size: 1.5em;
     font-family: "Avenir", "sans-serif";
     font-weight: normal;
@@ -164,22 +159,75 @@ h5 {
     color: white;
     
 }
+
 h6 {
-    text-align: center;
     font-size: 1.8em;
-    font-family: "Minion Pro", "serif";
+    font-family: "Avenir Next Condensed", "sans-serif";
     font-weight: normal;
-    margin-bottom: 0;
+    color: white; 
+}
+
+#bio > h6 {
+   text-align: center;
+}
+
+.portfolio {
+    width: 100%;
+    max-width: 1000px;
+    height: 140px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.portfolio-text {
+    margin-left: 5%;
+    padding: 0px;
+    width: 55%;
+    float: left;
+    height: 100%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.portfolio-pics {
+    margin-left: 65%;
+    margin-right: 5%;
+    padding: 0px;
+    height: 100%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+.portfolio-pics img {
+    width: 100%;
+}
+ 
+.portfolio-text > h6 {
+    text-align: left;
+    margin: 20px;
+}
+
+.portfolio-text > a {
     color: white;
-    
+    margin-top: 20px;
+    text-decoration: none;
+    font-family: "Avenir", "sans-serif";
+    font-size: 1.5em
+}
+
+.portfolio-text > a:hover {
+    color: #999999;
 }
         
 p { 
     font-size: 1.1em; 
-    font-family: "Avenir Next Condensed", "sans-serif";
-    text-align: center;
-    margin: 0px 200px;
+    font-family: "Minion Pro", "serif";
+    text-align: left;
     color: lightgray;
+    margin: 0;
     
 }
 
