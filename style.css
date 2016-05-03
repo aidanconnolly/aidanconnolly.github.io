@@ -104,3 +104,11 @@ footer a {
 footer a:hover{
     color:#999999
 }
+
+p {
+    font-size: 1.3em;
+}
+
+h3 {
+    margin-top: 0;
+}
