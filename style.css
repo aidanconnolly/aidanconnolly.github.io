@@ -100,11 +100,14 @@ footer {
 
 .footerLink {
     color: #FFF;
-    text-decoration: underline;
 }
 
 .footerLink:hover{
     color:#999999
+}
+
+.underline {
+    text-decoration: underline;
 }
 
 p {
