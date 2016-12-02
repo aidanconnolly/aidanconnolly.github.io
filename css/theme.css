@@ -5,14 +5,13 @@
  */
 
 
-.navbar-custom {
+.navbar {
+    padding: 0px 0px 5px;
     margin-bottom: 0;
-    border-bottom: 1px solid rgba(255,255,255,.3);
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: #000;
-    text-shadow: 2px 2px #3E3E3E;
+    border-radius: 0;
+    font-family: "Avenir"
 }
+
 
 .navbar-custom .navbar-brand {
     font-weight: 700;
