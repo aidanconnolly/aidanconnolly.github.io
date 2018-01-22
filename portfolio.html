@@ -1,98 +1,140 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <title>Aidan Connolly</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Roboto+Condensed" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
- 
 </head>
 <body>
-
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="index.html"><img src="Logo%20and%20Monogram.png" height="25" alt="Aidan's Logo"></a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li><a href="resume.pdf" target="_blank">Resume</a></li>
-        <li><a href="portfolio.html" class="active">Portfolio</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
-<div class="jumbotronPortfolio">
-</div>
-  
-<div class="container-fluid bg-3 p-t-sm"> 
-  <div class="row p-s-md">
-      <div class='col-sm-8'>
-          <h3><a href="testscores.html">Visualizing Nebraska State Assessments</a></h3>
-          <p>After 2016 Nebraska State Assessment scores were released, I analyzed and visualized the data.</p>
-      </div>
-      <div class="col-sm-4">
-          <a href="testscores.html" target="_blank" title="Nebraska State Assessments"><img src="img/background.png" class="img-responsive p-b-sm" style="width:100%" alt="Background picture from heatmap"></a>
-      </div>
-  </div>
-  <div class="row p-s-md">
-      <div class='col-sm-12'>
-          <h3><a href="http://www.dailynebraskan.com/news/action-reaction-response-a-timeline/article_6cf91882-860e-11e6-a538-63c5cd7baa9b.html" target="_blank">Action, reaction, response: a timeline</a></h3>
-          <p>After three Husker football players kneeled during the national anthem at a football game, I worked with another reporter to create an interactive timeline to show the subsequent events.</p>
-      </div>
-  </div>
-    <div class = "row p-s-md">
-        <div class="col-sm-12">
-            <iframe src="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1gJHggFO_Riv2-m9ksoYM3O9vJVwWqvIyDkyS5bqW1sQ&amp;font=Default&amp;lang=en&amp;initial_zoom=2&amp;height=650" frameborder="0" width="100%" height="650"></iframe>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-3">
+                <h1>Aidan Connolly</h1>
+                <p>Currently a senior at the University of Nebraska-Lincoln, I plan to graduate in May 2018 with a Bachelor of Journalism degree.</p>
+                <a href="/">Home</a><br>
+                <a href="/resume.html">Resume</a><br>
+                <a href="/portfolio.html">Portfolio</a>
+                <ul>
+                    <li><a href="#data">Data</a></li>
+                    <li><a href="#video">Video</a></li>
+                    <li><a href="#writing">Writing</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-1">
+            </div>
+            <div class="col-lg-8">
+                <div class="category">
+                    <h2 id="data">Data</h2>
+                    <div class="row entry">
+                        <div class="col-md-8">
+                            <h4><a href="http://github.com/aidanconnolly/crimemusic">UNL Crime Music</a></h4>
+                        </div>
+                        <div class="col-md-4">
+                            <h6 class="date">January 2017</h6>
+                        </div>
+                        <ul>
+                            <li>In an effort to explore the idea of portraying data through sound, I analyzed University of Nebraska-Lincoln Police Department crime data with MIDI.</li>
+                        </ul>
+                    </div>
+                    <div class="row entry">
+                        <div class="col-md-8">
+                            <h4><a href="http://dataomaha.com/legislature">Nebraska Legislature Database</a></h4>
+                        </div>
+                        <div class="col-md-4">
+                            <h6 class="date">January 2017</h6>
+                        </div>
+                        <ul>
+                            <li>The World-Herald wanted an increase their coverage of the Nebraska Legislature, so I created a Django app to track bills and senators.</li>
+                        </ul>
+                    </div>
+                    <div class="row entry">
+                        <div class="col-md-8">
+                            <h4><a href="https://github.com/aidanconnolly/jour307homework/blob/master/DowntownAptsArticle/Building%20Permits.ipynb">Nebraska voting analysis</a></h4>
+                        </div>
+                        <div class="col-md-4">
+                            <h6 class="date">December 2016</h6>
+                        </div>
+                        <ul>
+                            <li>After the 2016 general election, I analyzed Nebraska voting turnout by party using R and ggplot for my Data Visualization class.</li>
+                        </ul>
+                    </div>
+                    <div class="row entry">
+                        <div class="col-md-8">
+                            <h4><a href="https://github.com/aidanconnolly/jour307homework/blob/master/DowntownAptsArticle/Building%20Permits.ipynb">Downtown Lincoln apartment analysis</a></h4>
+                        </div>
+                        <div class="col-md-4">
+                            <h6 class="date">October 2016</h6>
+                        </div>
+                        <ul>
+                            <li>As part of a larger package for The Daily Nebraskan, I looked at the growth of off-campus housing in downtown Lincoln.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="category">
+                    <h2 id="video">Video</h2>
+                    <div class="row entry">
+                        <div class="col-md-8">
+                            <h4><a href="https://www.youtube.com/watch?v=swOrQs2c7PM">Steele City, Nebraska profile</a></h4>
+                        </div>
+                        <div class="col-md-4">
+                            <h6 class="date">December 2017</h6>
+                        </div>
+                        <ul>
+                            <li>For my Experimental Video Storytelling class, we learned how to use 360-degree cameras and drones to create videos. This video provides a short profile of Steele City, Nebraska, located on the Keystone pipeline.</li>
+                        </ul>
+                    </div>
+                    <div class="row entry">
+                        <div class="col-md-8">
+                            <h4><a href="https://www.youtube.com/watch?v=n3-RjSBmMpQ">Ave Maria performance</a></h4>
+                        </div>
+                        <div class="col-md-4">
+                            <h6 class="date">October 2017</h6>
+                        </div>
+                        <ul>
+                            <li>As a member of the Varsity Men's Chorus, I jumped on the opportunity to record part of our rehearsal in 360 degrees. This video also uses 360-degree audio, which allows the audio to move with the video. </li>
+                        </ul>
+                    </div>
+                    <div class="row entry">
+                        <div class="col-md-8">
+                            <h4><a href="https://www.youtube.com/watch?v=n3-RjSBmMpQ">Husker tennis highlight</a></h4>
+                        </div>
+                        <div class="col-md-4">
+                            <h6 class="date">April 2017</h6>
+                        </div>
+                        <ul>
+                            <li>After spending three months filming the Nebraska men's tennis team, I edited together a highlight video for their banquet. The video does include footage recorded by other interns.</li>
+                        </ul>
+                    </div>
+                    <div class="row entry">
+                        <div class="col-md-8">
+                            <h4><a href="https://www.youtube.com/watch?v=n3-RjSBmMpQ">Husker basketball highlight</a></h4>
+                        </div>
+                        <div class="col-md-4">
+                            <h6 class="date">March 2017</h6>
+                        </div>
+                        <ul>
+                            <li>As part of our training at HuskerVision, we were assigned to edit together a two-minute highlight video. I chose to show the Husker men's basketball win over Purdue, breaking a five-game losing streak.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="category">
+                    <h2 id="writing">Writing</h2>
+                    <div class="row entry">
+                        <div class="col-md-8">
+                            <h4><a href="http://www.dailynebraskan.com/news/meet-unl-s-newly-appointed-chancellor-ronnie-green/article_2ee92fc0-08c1-11e6-bc3f-c7de3efb06df.html">Chancellor Green profile</a></h4>
+                        </div>
+                        <div class="col-md-4">
+                            <h6 class="date">April 2016</h6>
+                        </div>
+                        <ul>
+                            <li>I wrote a profile of Ronnie Green after he was chosen as the new chancellor for the University of Nebraska-Lincoln following Harvey Perlman's announcement to step down.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    
-        <br />
-    <div class="row p-s-md">
-      <div class='col-sm-8'>
-          <h3><a href="http://projects.dailynebraskan.com/off-campus-housing/articles/umbrella/" target="_blank" title="Off-Campus Housing Article">Private housing in downtown Lincoln</a></h3>
-          <p>With the recent growth in private housing complexes in downtown Lincoln, I looked into how many rooms are being built, how many residents are living off campus and how the downtown area has been affected.</p>
-      </div>
-      <div class="col-sm-4">
-          <a href="http://projects.dailynebraskan.com/off-campus-housing/articles/umbrella/" target="_blank" title="Off-Campus Housing Article"><img src="Housing.jpg" class="img-responsive p-b-sm" style="width:100%" alt="Housing photo by Adam Warner"></a>
-      </div>
-    </div>
-     <div class="row p-s-md">
-        <br />
-      <div class='col-sm-8'>
-          <h3><a href="http://www.dailynebraskan.com/news/unl-parking-and-transit-responds-to-common-parking-complaints/article_5b744f5e-6823-11e6-8fa9-87ec91975203.html" target="_blank" title="UNL Parking Article">Parking complaints at UNL</a></h3>
-          <p>Students often complain about parking at the University of Nebraska-Lincoln, so I requested data from the Parking and Transit Services department and analyzed permit costs over time.</p>
-      </div>
-      <div class="col-sm-4">
-          <a href="http://www.dailynebraskan.com/news/unl-parking-and-transit-responds-to-common-parking-complaints/article_5b744f5e-6823-11e6-8fa9-87ec91975203.html" target="_blank" title="UNL Parking Article"><img src="Parking.jpg" class="img-responsive p-b-sm" style="width:100%" alt="UNL Parking file photo"></a>
-      </div>
-    </div>
-      <div class="row p-s-md">
-        <br />
-      <div class='col-sm-8'>
-          <h3><a href="http://www.dailynebraskan.com/news/meet-unl-s-newly-appointed-chancellor-ronnie-green/article_2ee92fc0-08c1-11e6-bc3f-c7de3efb06df.html" target="_blank" title="Ronnie Green Profile">Chancellor Ronnie Green Profile</a></h3>
-          <p>I wrote a profile of Ronnie Green after he was chosen as the new chancellor for the University of Nebraska-Lincoln following Harvey Perlman's announcement to step down.</p>
-      </div>
-      <div class="col-sm-4">
-          <a href="http://www.dailynebraskan.com/news/meet-unl-s-newly-appointed-chancellor-ronnie-green/article_2ee92fc0-08c1-11e6-bc3f-c7de3efb06df.html" target="_blank" title="Ronnie Green Profile"><img src="Green.jpg" class="img-responsive p-b-sm" style="width:100%" alt="Green Headshot by Calla Kessler"></a>
-      </div>
-    </div>
-  </div>
-</div><br>
-
-
-<footer class="container-fluid text-center">
-  <p><a href=mailto:aidan.connolly@huskers.unl.edu class="underline footerLink" >Aidan Connolly</a> | 540 N 16th St Lincoln NE 68508 | (563) 320-9492</p>
-</footer>
-
 </body>
 </html>
