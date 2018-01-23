@@ -1,5 +1,6 @@
 body {
     padding-top: 20px;
+    padding-right: 20px;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -36,6 +37,12 @@ p {
 
 ul {
     list-style: none;
+    padding-right: 15px;
+} 
+
+li {
+
+    text-align: justify;
 }
 
 hr {
@@ -66,3 +73,8 @@ hr {
 .entry {
     margin-bottom: 0.8em;
 }
+
+@media only screen and (min-width: 768px) {
+    .date {
+        text-align: right;
+    }
