@@ -9,6 +9,10 @@ h1, h2 {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+h1 a {
+    color: #000;
+}
+
 h3, h4 {
     font-family: 'Roboto Condensed', sans-serif;
     margin-bottom: 0em;
@@ -38,7 +42,7 @@ p {
 ul {
     list-style: none;
     padding-right: 15px;
-} 
+}
 
 li {
 
