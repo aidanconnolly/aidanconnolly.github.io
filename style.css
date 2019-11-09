@@ -5,7 +5,7 @@ body {
 }
 
 a {
-    color: #666;
+    color: rgb(5, 146, 153);
 }
 
 a:hover {
@@ -18,7 +18,7 @@ h1 a {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: mr-eaves-xl-sans-narrow, sans-serif;
 }
 
 h1, h2 {
@@ -33,15 +33,12 @@ h5, h6 {
     margin-bottom: 0.1em;
 }
 
-h5 {
-    font-weight: bold;
-}
-
 ul {
     padding-right: 15px;
 }
 
 hr {
+    border: 0.5px solid rgb(5, 146, 153);
     margin-top: 0;
 }
 
@@ -61,15 +58,12 @@ hr {
     .date {
         text-align: right;
     }
+}
 
 @media (prefers-color-scheme: dark) {
     body {
         background-color: #222;
         color: #ddd;
-    }
-
-    a {
-        color: #999;
     }
 
     a:hover {
